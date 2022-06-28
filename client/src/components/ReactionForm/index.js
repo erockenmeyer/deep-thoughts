@@ -23,7 +23,7 @@ const ReactionForm = ({ thoughtId }) => {
             });
 
             // clear form value
-            setText('');
+            setBody('');
             setCharacterCount(0);
         } catch (e) {
             console.error(e);
